@@ -1,0 +1,11 @@
+*.c++
+*.h
+*.png
+*.tif
+*.out
+*.gif
+*.mp4
+*.swp
+*.save
+*.stackdump
+*.exe
