@@ -25,5 +25,6 @@ def animate(i):
 	s.set_offsets([float(lon), float(lat)])
 	time.sleep(30)
 
+plt.subplots_adjust(top = 1, bottom = 0, left = 0, right = 1)
 anim = FuncAnimation(plt.gcf(), animate, frames = 20)
 anim.save('./iss.gif', writer='imagemagick')
