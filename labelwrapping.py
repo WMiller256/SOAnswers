@@ -52,7 +52,6 @@ fig, ax = plt.subplots(1)
 
 width = 7
 ax.set_yticklabels([textwrap.fill(i, width) for i in data['Client Name'].head()])
-[print(e) for e in data['Client Name']]
 plt.savefig("./LabelWrapping-wrapped.png", bbox_inches='tight', dpi=300)
 
 ax.set_yticklabels(data['Client Name'].head())
