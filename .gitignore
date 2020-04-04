@@ -1,6 +1,7 @@
 *.png
 *.pdf
 *.tif
+*.csv
 *.out
 *.gif
 *.mp4
