@@ -1,4 +1,4 @@
-# Question: https://stackoverflow.com/questions/60905240/two-figures-opening-first-one-is-empty
+# Question: https://stackoverflow.com/questions/60905240/
 
 import matplotlib.pyplot as plt
 
