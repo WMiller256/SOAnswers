@@ -11,10 +11,13 @@ ytick.labelsize : 14
 xtick.labelsize : 14
 axes.labelsize : 20
 lines.dash_capstyle : round
+lines.dotted_pattern : 1, 4
 lines.linewidth : 1
 axes.titlepad : 10.0
 xtick.direction : in
 ytick.direction : in
+xtick.major.size : 5
+ytick.major.size : 5
 xtick.minor.visible : True
 ytick.minor.visible : True
 text.usetex : True
