@@ -6,7 +6,8 @@ import numpy as np
 
 plt.style.use('miller')
 
-colors = tab20
+cycler = plt.gca()._get_lines.prop_cycler
+colors = [next(cycler)['color'] for i in range(4)]
 
 mlab.options.offscreen = True
 e = OffScreenEngine()
