@@ -24,8 +24,7 @@ void readBMP(char* filename)
   		info[ii] = static_cast<unsigned char>(bits);
   }
 
-  std::cout << "info[18]                    -> 1 byte  " 
-  		<< std::bitset<32>(info[18]) << std::endl;
+  std::cout << "info[18]                    -> 1 byte  " << std::bitset<32>(info[18]) << std::endl;
   std::cout << "*(unsigned short*)&info[18] -> 2 bytes " << std::bitset<32>(*(unsigned short*)&info[18]) << std::endl;
   std::cout << "*(int)&info[18]             -> 4 bytes " << std::bitset<32>(*(int*)&info[18]) << std::endl;
 
@@ -33,7 +32,6 @@ void readBMP(char* filename)
 }
 
 int main() {
-    //unsigned char* info = new unsigned char[54];
     readBMP("./test.bmp");
     return 0;
 }

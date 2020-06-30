@@ -22,12 +22,11 @@ public:
 
 int main() {
 	Graph g;
-	boost::add_edge(0,1,6,g);
-	boost::add_edge(1,2,6,g);
-	boost::add_edge(2,3,6,g);
-	boost::add_edge(3,1,6,g);
-	boost::add_edge(3,4,6,g);
-
+	boost::add_edge(0, 1, 6, g);
+	boost::add_edge(1, 2, 6, g);
+	boost::add_edge(2, 3, 6, g);
+	boost::add_edge(3, 1, 6, g);
+	boost::add_edge(3, 4, 6, g);
 
 	Graph::vertex_descriptor s = *(boost::vertices(g).first);
 	std::queue<Graph::vertex_descriptor> q;
