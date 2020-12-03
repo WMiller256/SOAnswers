@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import datetime as dt
 import numpy as np
 
-plt.style.use('miller')
+plt.style.use('./miller.mplstyle')
 
 plt.figure(figsize=(12,3))
 x = np.arange('2020-04-03T00:00Z', '2020-04-05T00:30Z', np.random.randint(50, 70), dtype='datetime64[m]')

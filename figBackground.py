@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import to_rgb
 import numpy as np
 
-plt.style.use('miller')
+plt.style.use('./miller.mplstyle')
 
 x = np.linspace(0, np.pi*4, 100)
 

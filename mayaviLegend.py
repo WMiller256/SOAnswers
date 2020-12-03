@@ -4,7 +4,7 @@ import mayavi.mlab as mlab
 from mayavi.api import OffScreenEngine
 import numpy as np
 
-plt.style.use('miller')
+plt.style.use('./miller.mplstyle')
 
 cycler = plt.gca()._get_lines.prop_cycler
 colors = [next(cycler)['color'] for i in range(4)]

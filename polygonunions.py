@@ -5,7 +5,7 @@ from matplotlib import patches
 from shapely.ops import cascaded_union
 from shapely import geometry
 
-plt.style.use('miller')
+plt.style.use('./miller.mplstyle')
 
 # Generate data
 data = [  # 1st set

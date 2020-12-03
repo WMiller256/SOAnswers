@@ -2,7 +2,7 @@ import textwrap
 import matplotlib.pyplot as plt
 import pandas as pd
 
-plt.style.use('miller')
+plt.style.use('./miller.mplstyle')
 
 df = {'Client Name': ['Some Name', 'Some long company name', 'Name',
  		    'Company', 'Long Comany Name'],

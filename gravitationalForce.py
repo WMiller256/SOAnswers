@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import shapely.geometry as geom
 
-plt.style.use('miller')
+plt.style.use('./miller.mplstyle')
 
 def centerOfMass(r, density = 1.0, n = 100):
 	theta = np.linspace(0, np.pi*2, len(r))

@@ -186,7 +186,7 @@ from matplotlib import pyplot as plt
 from moviepy.editor import VideoClip
 from moviepy.video.io.bindings import mplfig_to_npimage
 
-plt.style.use('miller')
+plt.style.use('./miller.mplstyle')
 
 fps = 10
 

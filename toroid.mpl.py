@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-plt.style.use('miller')
+plt.style.use('./miller.mplstyle')
 
 fig = plt.figure()
 ax = fig.gca(projection='3d')

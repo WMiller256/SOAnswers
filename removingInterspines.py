@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import math 
 
-plt.style.use('miller')
+plt.style.use('./miller.mplstyle') 
 
 ratios = [5, 5, 7]
 lim = [[-0.3, 0.3], [-1, 1], [-12,4]]

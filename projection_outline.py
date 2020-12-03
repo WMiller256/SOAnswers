@@ -8,7 +8,7 @@ from shapely import geometry
 from matplotlib import patches
 import contextlib
 
-plt.style.use('miller')
+plt.style.use('./miller.mplstyle')
 
 rcParams['figure.figsize'] = 14, 6
 

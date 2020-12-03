@@ -3,7 +3,7 @@ from shapely import affinity
 import matplotlib.pyplot as plt
 import numpy as np
 
-plt.style.use('miller')
+plt.style.use('./miller.mplstyle')
 
 n = 360
 theta = np.linspace(0, np.pi*2, n)

@@ -3,7 +3,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-plt.style.use('miller')
+plt.style.use('./miller.mplstyle')
 
 df = pd.DataFrame({'fig' : ["Between 1 to 10C", "20C", "500ML", "1LITRE"], 
 				   'Bottles' : [18, 15, 217, 922], 

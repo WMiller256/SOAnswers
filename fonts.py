@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
-plt.style.use('miller')
+plt.style.use('./miller.mplstyle')
 
 ylabel = plt.ylabel("Y Label")
 plt.xlabel("X Label")

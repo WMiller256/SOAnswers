@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import itertools
 import numpy as np
 
-plt.style.use('miller')
+plt.style.use('./miller.mplstyle')
 
 def gettime(s):
 	e = ["".join(x) for _, x in itertools.groupby(s, key=str.isdigit)]

@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-plt.style.use('miller')
+plt.style.use('./miller.mplstyle')
 
 df = pd.DataFrame({'x' : np.random.random(25), 'y' : np.random.random(25)*5, 'z' : np.random.random(25)*2.5})
 

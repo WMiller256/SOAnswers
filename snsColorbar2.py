@@ -15,6 +15,6 @@ sm.set_array([])
 ax.get_legend().remove()
 ax.figure.colorbar(sm)
 
-plt.savefig('./SNSColorbar.png', bbox_inches='tight', dpi=300)
+plt.savefig('./snscolorbar2.png', bbox_inches='tight', dpi=300)
 
 plt.show()

@@ -6,7 +6,7 @@ import datetime as dt
 from pandas.plotting import register_matplotlib_converters
 register_matplotlib_converters()
 
-plt.style.use('miller')
+plt.style.use('./miller.mplstyle')
 
 dates = ['2020-03-01', '2020-03-02', '2020-03-03', '2020-03-04', '2020-03-05']
 x = [dt.datetime.strptime(d,'%Y-%m-%d').date() for d in dates]

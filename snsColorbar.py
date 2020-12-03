@@ -14,5 +14,5 @@ plt.figure(figsize = (12, 8))
 g = sns.barplot(x="sub_grade", y = "Count", data=df, palette=cm.Blues(df['loan_status']))
 
 plt.colorbar(cm.ScalarMappable(cmap=cm.Blues))
-plt.savefig('./SNSColorbar.png', bbox_inches='tight', dpi=300)
+plt.savefig('./snscolorbar.png', bbox_inches='tight', dpi=300)
 plt.show()
